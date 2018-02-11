@@ -19,6 +19,8 @@ class App extends Component {
         <button className={styleModule.button2}> btn style 3</button>  
         <br />
         <button className='button3'> btn style 777</button>  
+        <br />
+        <button className='animated shake'> btn style 999</button> 
       </div>
     );
   }
