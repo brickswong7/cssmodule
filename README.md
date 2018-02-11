@@ -1,3 +1,6 @@
+主要包括：
+cssmodule 与 less 兼容使用 ， 引入rem 以及 px-》rem 转换 ， autoprefixer  ，静态资源引入
+
 1、修改配置项
  test: /\.css$/,
             use: [
