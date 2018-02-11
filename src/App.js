@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import rootStyle from './App.css';
-import styleModule from './cssmodule.css'
+import styleModule from './cssmodule.css';
+import './lessmodules.less'
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
         <button className={styleModule.button1}> btn style 2</button> 
         <br />
         <button className={styleModule.button2}> btn style 2</button>  
+        <br />
+        <button className={styleModule.button3}> btn style 3</button>  
       </div>
     );
   }

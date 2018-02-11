@@ -43,3 +43,14 @@ button{
     color: red;
     background-color: pink
 }
+
+
+
+
+
+less
+ test: /\.(css|less)$/,
+
+{
+    loader: require.resolve('less-loader') // compiles Less to CSS
+}
