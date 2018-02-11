@@ -15,7 +15,8 @@ button{
 }
 .button1{
     composes: btnClass;
-    background-color:purple
+    background-color:purple;
+    box-sizing: border-box
 }
 .button2{
     composes: btnClass from './cssmodule2.css';
