@@ -4,3 +4,28 @@
     height: 100px;
     color: #000
 }
+button{
+    color: #000
+}
+:global(button){
+    color: red
+}
+.btnClass{
+    color: #000
+}
+.button1{
+    composes: btnClass;
+    background-color:purple
+}
+.button2{
+    composes: btnClass from './cssmodule2.css';
+    background-color: #cccccc
+}
+
+@value colors: "./cssmodule2.css";
+@value blue, red, green ,pink from colors;
+
+.button2{
+    color: red;
+    background-color: pink
+}

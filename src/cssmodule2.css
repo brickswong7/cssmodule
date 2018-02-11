@@ -1,0 +1,12 @@
+:global(button){
+    color: red;
+    background-color: blue
+}
+.btnClass{
+    background-color: green 
+}
+
+@value blue: #0c77f8;
+@value red: #ff0000;
+@value green: #aaf200;
+@value pink: pink;
