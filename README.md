@@ -49,8 +49,12 @@ button{
 
 
 less
- test: /\.(css|less)$/,
+再加一个匹配
+          {
+            test:/\.less$/,
+            use:[ 'style-loader','css-loader','less-loader'],
+            
+          },
 
-{
-    loader: require.resolve('less-loader') // compiles Less to CSS
-}
+import './lessmodules.less'；
+<button className='button3'> btn style 3</button>  

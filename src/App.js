@@ -17,7 +17,7 @@ class App extends Component {
         <br />
         <button className={styleModule.button2}> btn style 2</button>  
         <br />
-        <button className={styleModule.button3}> btn style 3</button>  
+        <button className='button3'> btn style 3</button>  
       </div>
     );
   }
